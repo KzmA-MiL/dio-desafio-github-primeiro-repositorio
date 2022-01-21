@@ -1,3 +1,7 @@
-# **_Repositório do Desafio do Projeto Git/Github da DIO_**
+# **Desafio do Projeto Git/Github da DIO_**
 
-Desafio de projeto sobre Git/Github
+## Repositório ciado para o desafio do projeto
+
+Links úteis:
+
+[Sintaxe básica MarkDown](https://www.markdownguide.org/getting-started/)
