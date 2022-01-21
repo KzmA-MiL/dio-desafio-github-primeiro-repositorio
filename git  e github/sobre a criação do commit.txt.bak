@@ -1,0 +1,56 @@
+o arquivo strogonoff.md foi criado no explorer  com novo arquivo , tipo md, editado no vs code, cna linguagem Markdown
+
+comandos no git bash:
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas
+$ git init 																     iNICIALIZADO O GIT
+Initialized empty Git repository in C:/workspace/livro-receitas/.git/
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)          COMEÇOU A MOSTRAR  A PASTA COMO MASTER
+$ ls
+																			NÃO MOSTROU NADA POIS FOI CRIADA UMA PASTA OCULTA
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ ls -a																		COM O -a SÃO LISTADAS AS PASTAS E ARQUIVOS OCULTOS
+./  ../  .git/
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ cd .git
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas/.git (GIT_DIR!)
+$ dir
+HEAD  config  description  hooks  info  objects  refs						CONTEUDO DA PASTA .GIT
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas/.git (GIT_DIR!)
+$ cd ..																		SAI DA PASTA .GIT
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git config --global user.email "kzma.mil10@gmail.com"						CONFIGURA O EMAIL DO AUTOR
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git config --global user.name Kzma-MiL									CONFIGURA O NICKNAME DO AUTOR
+
+
+				NESSE PONTO FOI CRIADO O ARQUIVO strogonoff.md, no explorer  com novo arquivo , tipo md, editado no vs code, COM A linguagem Markdown. 
+				SALVO E FECHADO O ARQUIVO
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git add *																	AQUI OS ARQUIVOS DA PASTA LIVRO-RECEITAS SÃO ADICIONADOS AO GIT
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git commit -m "commit inicial"											AQUI É CRIADO O COMMIT  COM A MENSAGEM INICIAL, DATA, AUTOR, ETC
+[master (root-commit) bfc4eaa] commit inicial								AQUI É MOSTRADO O INICIO DO SHA1 DO COMMIT
+ 1 file changed, 38 insertions(+)
+ create mode 100644 strogonoff.md
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ ls
+strogonoff.md
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ ls -a
+./  ../  .git/  strogonoff.md
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$
+
+
+SEMPRE QUE O ARQUIVO FOR MODIFICADO TEMOS QUE FAZER O GIT ADD*  E O COMMITPARA SALVAR A NOVA VERSÃO NO GIT

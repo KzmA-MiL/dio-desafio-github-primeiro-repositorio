@@ -1,0 +1,34 @@
+subindo para o github
+
+primeiro criar um novo repositorio no github;
+copiar o link.
+
+
+
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git remote add origin https://github.com/KzmA-MiL/livro-receitas.git   COLOCAR  ESSE COMANDO , COM O LINK COPIADO DO GITHUB
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git remote -v																DEPOIS ESSE
+origin  https://github.com/KzmA-MiL/livro-receitas.git (fetch)
+origin  https://github.com/KzmA-MiL/livro-receitas.git (push)
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$ git push origin  master													E FINALMENTE FAZER O PUSH
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.74 KiB | 594.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/KzmA-MiL/livro-receitas.git
+ * [new branch]      master -> master
+
+Kzma_@Kzma-Dell-6JHUJH MINGW64 /c/workspace/livro-receitas (master)
+$
